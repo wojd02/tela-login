@@ -7,35 +7,46 @@
 main{
     position: relative;
 }
-div{
+section#cima{
+    position: relative;
+}
+section#baixo{
+    position: relative;
+}
+div#log{
     background-color: white;
     width: 360px;
-    border-radius: 12px;
+    border-radius: 0px 0px 10px 10px;
     position: absolute;
     top: -50%;
     left: 50%;
-    transform: translate(-50%, 20%);
+    transform: translate(-50%, 100%);
 }
-main > div > img{
+main> section> div#imagem{
+    position: absolute;
+    left: 41%;
+    top: 50%;
+    transform: translate(-34%, 50%);
+}
+main > section#cima> div#imagem > img{
     width: 360px;
-    padding: 0px;
     border-radius: 10px 10px 0px 0px;
 }
-main > div >h1{
+main > section > div >h1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding-bottom: 10px;
     padding-top: 10px;
 }
-main > div >p{
+main > section> div >p{
     text-align: justify;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
-main > div >form{
+main > section> div >form{
     padding: 10px 0px;
 }
-main > div > form > input{
+main > section> div > form > input{
     display: block;
     margin: auto;
     margin-top: 10px;
@@ -46,7 +57,7 @@ main > div > form > input{
     background-color: cadetblue;
     cursor: pointer;
 }
-main > div > form > p{
+main > section> div > form > p{
     display: block;
     margin: auto;
     width: 280px;
@@ -56,16 +67,20 @@ main > div > form > p{
     margin-top: 5px;
     border-radius: 5px;
 }
-main > div > form > p > label > i.material-symbols-outlined{
+main > section> div > form > p > label > i.material-symbols-outlined{
     font-size: 34px;
     line-height: 0;
     padding: 0px;
     margin: 0px;
+    color: white;
 }
 input#ilogin, input#isen{
     width: 202px;
     padding: 14px;
     border-radius: 10px;
+}
+input#sen{
+    background-color: rgb(204, 33, 33);
 }
 body{
     background-color: rgb(114, 38, 38);
