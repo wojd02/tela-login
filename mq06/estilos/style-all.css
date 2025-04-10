@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    position: relative;
+}
+div{
+    background-color: white;
+    width: 360px;
+    border-radius: 12px;
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+}
+main > div > img{
+    width: 360px;
+    padding: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+main > div >h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+main > div >p{
+    text-align: justify;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main > div >form{
+    padding: 10px 0px;
+}
+main > div > form > input{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    width: 340px;
+    border-radius: 10px;
+    border: 0px solid;
+    background-color: cadetblue;
+    cursor: pointer;
+}
+main > div > form > p{
+    display: block;
+    margin: auto;
+    width: 280px;
+    height: 47px;
+    background-color: rgb(19, 119, 158);
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+main > div > form > p > label > i.material-symbols-outlined{
+    font-size: 34px;
+    line-height: 0;
+    padding: 0px;
+    margin: 0px;
+}
+input#ilogin, input#isen{
+    width: 202px;
+    padding: 14px;
+    border-radius: 10px;
+}
+body{
+    background-color: rgb(114, 38, 38);
+}
