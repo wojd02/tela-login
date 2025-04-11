@@ -1,0 +1,47 @@
+@charset "UTF-8";
+:root{
+    --cor_1 : #F2EFE7;
+    --cor_2 : #9ACBD0;
+    --cor_3 : #48A6A7;
+    --cor_4 : #006A71;
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    section#login{
+        width: 90vw;
+    }
+    div#ima{
+        float: left;
+        width:30%;
+        height: 100vh;
+        background: url(../imagens/img-killah-vertical.jpg);
+        background-size:120%;
+        background-repeat: no-repeat;
+    }
+    section#formulario{
+        float: right;
+        margin-left: 5px;
+    }
+    body{
+        background-image: linear-gradient(to top, var(--cor_4), var(--cor_3) );
+    }
+}
+@media screen and (min-width: 992px){
+    section#login{
+        width: 50vw;
+    }
+    div#ima{
+        float: left;
+        width:40%;
+        height: 100vh;
+        background: url(../imagens/img-killah-vertical-pc.jpg);
+        background-size:120%;
+        background-repeat: no-repeat;
+    }
+    section#formulario{
+        float: right;
+        margin-left: 5px;
+    }
+    body{
+        background-image: linear-gradient(to top, var(--cor_4), var(--cor_3) );
+    }
+}
