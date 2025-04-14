@@ -81,5 +81,6 @@ input#env, input#sen{
     padding: 3px;
 }
 div#botao{
-    padding: 5px;
+    padding: 5px 0px;
+    margin: 5px 0px;
 }
