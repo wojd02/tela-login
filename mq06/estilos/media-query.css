@@ -24,10 +24,19 @@
     body{
         background-image: linear-gradient(to top, var(--cor_4), var(--cor_3) );
     }
+    input#env, input#sen{
+        display: block;
+        margin: auto;
+        margin-top: 9px;
+        padding: 3px;
+    }
+    div#botao{
+        margin-top: 25px;
+    }
 }
 @media screen and (min-width: 992px){
     section#login{
-        width: 50vw;
+        width: 60vw;
     }
     div#ima{
         float: left;
@@ -43,5 +52,11 @@
     }
     body{
         background-image: linear-gradient(to top, var(--cor_4), var(--cor_3) );
+    }
+    h1{
+        font-size: 3em;
+    }
+    p{
+        font-size: 1.3em;
     }
 }

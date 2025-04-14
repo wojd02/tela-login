@@ -17,20 +17,22 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a). Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="#" autocomplete="off" method="post">
-                    <p>
+                    <p class="bot">
+                        <i class="material-symbols-outlined">person</i>
+                        <input id="ilogin" required maxlength="30" placeholder="nome usuario" type="email">
                         <label for="ilogin">
-                            <i class="material-symbols-outlined">person</i>
                         </label>
-                        <input id="ilogin" required placeholder="nome usuario" type="text">
                     </p>
-                    <p>
+                    <p class="bot">
+                        <i class="material-symbols-outlined">passkey</i>
+                        <input id="isen" required minlength="8"  placeholder="***********" type="password">
                         <label for="isen">
-                            <i class="material-symbols-outlined">passkey</i>
                         </label>
-                        <input id="isen" required placeholder="***********" type="password">
                     </p>
-                    <input id="env" type="submit" value="Enviar">
-                    <input id="sen" type="submit" value="Esqueci minha senha">
+                    <div id="botao">
+                        <input id="env" type="submit" value="Enviar">
+                        <input id="sen" type="submit" value="Esqueci minha senha">
+                    </div>
                 </form>
             </div>
         </section>
