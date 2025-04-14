@@ -27,7 +27,7 @@ section#login{
     left: 50%;
     background-color: var(--cor_1);
     width: 260px;
-    height: 500px;
+    height: 510px;
     border-radius: 20px;
     text-align: center;
     overflow: hidden;
@@ -79,4 +79,7 @@ input#env, input#sen{
     margin: auto;
     margin-top: 13px;
     padding: 3px;
+}
+div#botao{
+    padding: 5px;
 }
