@@ -48,7 +48,7 @@ div#ima{
     background-size: contain;
     background-repeat: no-repeat;
     display: block;
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
